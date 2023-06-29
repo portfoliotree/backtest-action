@@ -1,5 +1,7 @@
 # Portfolio Backtest Action
 
+See [portfoliotree/Factors](https://github.com/portfoliotree/factors) for an example of using this action.
+
 ## Example usage
 
 ```yaml
