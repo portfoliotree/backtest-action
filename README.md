@@ -1,6 +1,6 @@
 # Portfolio Backtest Action
 
-See [portfoliotree/Factors](https://github.com/portfoliotree/factors) for an example of using this action.
+See [the portfoliotree/factors workflow]([https://github.com/portfoliotree/factors](https://github.com/portfoliotree/factors/blob/main/.github/workflows/back_test.yml)) for an example of using this action.
 
 ## Example usage
 
