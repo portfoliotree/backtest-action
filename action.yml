@@ -1,0 +1,6 @@
+# action.yml
+name: 'Portfolio Backtest Action'
+description: 'Backtest simple portfolio specifications.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
