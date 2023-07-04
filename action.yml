@@ -3,4 +3,4 @@ name: 'Portfolio Backtest Action'
 description: 'Backtest simple portfolio specifications.'
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'docker://ghcr.io/portfoliotree/backtest-action:latest'
