@@ -1,4 +1,8 @@
-FROM golang:1.20-alpine
+FROM golang:1.20-alpine AS builder
 COPY . /code/backtest-action
-RUN cd /code/backtest-action && go install -v .
-ENTRYPOINT ["backtest-action"]
+ENV CGO_ENABLED=0
+RUN cd /code/backtest-action && go build -v -o backtest-action .
+
+FROM gcr.io/distroless/static-debian11
+COPY --from=builder /code/backtest-action/backtest-action /backtest-action
+ENTRYPOINT ["/backtest-action"]
