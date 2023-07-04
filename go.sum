@@ -15,6 +15,8 @@ github.com/pkg/diff v0.0.0-20210226163009-20ebb0f2a09e/go.mod h1:pJLUxLENpZxwdsK
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/portfoliotree/portfolio v0.1.1-0.20230629074126-e6d8a7b39ff4 h1:7zIt8zKP+gzRpV8i49hOw+iNxkoW0HzTHdmf7P4wnxA=
 github.com/portfoliotree/portfolio v0.1.1-0.20230629074126-e6d8a7b39ff4/go.mod h1:FQolsEObY22Kaa9YoEcqZAc7jIWBX0iDRtHzJpfZ1Tg=
+github.com/portfoliotree/portfolio v0.2.1-0.20230704071227-610e4aa8f89d h1:YGBV8cwdyLiE2mIfwURQhz25JNC76OEIlxpuEfEVuY4=
+github.com/portfoliotree/portfolio v0.2.1-0.20230704071227-610e4aa8f89d/go.mod h1:bhdeUUNsON8BwH04NtUCFTZPJWCvTFwgL1cxQjt7W9s=
 github.com/portfoliotree/round v0.0.0-20221115082401-a830c3a8a159 h1:tyuE5WS9to6hUgqrq1ZzSrpxxbydo0M1/N7sRjvFbLM=
 github.com/portfoliotree/round v0.0.0-20221115082401-a830c3a8a159/go.mod h1:x31vr2Ldsfel4fHca08ISxi8KeVq7BMS3StIrXytBio=
 github.com/rogpeppe/go-internal v1.9.0 h1:73kH8U+JUqXU8lRuOHeVHaa/SZPifC7BkcraZVejAe8=

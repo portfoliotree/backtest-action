@@ -36,7 +36,14 @@ func main() {
 	var names []string
 	for _, spec := range specs {
 		log.Printf("running backtest with %d assets for %s: %q\n", len(spec.Assets), spec.Filepath, spec.Name)
-		result, err := spec.Backtest(ctx, nil)
+		assets, err := spec.AssetReturns(ctx)
+		if err != nil {
+			log.Fatal(err)
+		}
+		if assets.NumberOfRows() == 0 {
+			log.Fatal("assets table has 0 rows")
+		}
+		result, err := spec.Backtest(ctx, assets, nil)
 		if err != nil {
 			log.Fatal(err)
 		}

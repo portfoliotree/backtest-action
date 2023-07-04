@@ -3,7 +3,7 @@ module github.com/portfoliotree/backtest-action
 go 1.20
 
 require (
-	github.com/portfoliotree/portfolio v0.1.1-0.20230629074126-e6d8a7b39ff4
+	github.com/portfoliotree/portfolio v0.2.1-0.20230704071227-610e4aa8f89d
 	github.com/portfoliotree/round v0.0.0-20221115082401-a830c3a8a159
 )
 
