@@ -18,7 +18,7 @@ jobs:
     name: Run BackTest
     steps:
       - uses: actions/checkout@v3
-      - uses: portfoliotree/backtest-action@v0
+      - uses: portfoliotree/backtest-action
       - name: Save Artifacts
         uses: actions/upload-artifact@v3
         with:
