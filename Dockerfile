@@ -1,4 +1,4 @@
-FROM golang:1.20-alpine AS builder
+FROM golang:1-alpine AS builder
 COPY . /code/backtest-action
 ENV CGO_ENABLED=0
 RUN cd /code/backtest-action && go build -v -o backtest-action .
