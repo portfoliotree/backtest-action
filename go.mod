@@ -1,17 +1,19 @@
 module github.com/portfoliotree/backtest-action
 
-go 1.20
+go 1.21
+
+toolchain go1.21.0
 
 require (
-	github.com/portfoliotree/portfolio v0.2.1-0.20230704071227-610e4aa8f89d
-	github.com/portfoliotree/round v0.0.0-20221115082401-a830c3a8a159
+	github.com/portfoliotree/portfolio v0.2.1-0.20230818203541-383f3436bf8c
+	github.com/portfoliotree/round v0.0.0-20230629094931-8afd986aa2f1
 )
 
 require (
 	github.com/kr/pretty v0.3.1 // indirect
-	go.mongodb.org/mongo-driver v1.12.0 // indirect
-	golang.org/x/exp v0.0.0-20230321023759-10a507213a29 // indirect
+	go.mongodb.org/mongo-driver v1.12.1 // indirect
+	golang.org/x/exp v0.0.0-20230817173708-d852ddb80c63 // indirect
 	golang.org/x/text v0.9.0 // indirect
-	gonum.org/v1/gonum v0.12.0 // indirect
+	gonum.org/v1/gonum v0.14.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
